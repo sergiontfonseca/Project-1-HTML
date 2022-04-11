@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Very Good Printing</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="flex width-100 position-relative">
+            <li class="flex-1 block">
+                <a href="index.html"><img class="height-100px width-100" src="images/Logo.png" alt="Logo"></a>
+            </li>
+            <li class="flex-1 block">
+                <a class="flex text-xxlarge justify-center padding-1em hover-white" href="about.html">About Us</a>
+            </li>
+            <li class="flex-1 block">
+                <a class="flex text-xxlarge justify-center padding-1em hover-white" href="products.html">Products</a>
+                <ul>
+                    <li class="flex">
+                        <a class="flex text-xlarge justify-center hover-white" href="digital_print.html">Digital Printing</a>
+                        <ul>
+                            <li><a class="flex text-xlarge justify-center hover-white" href="book.html">Books</a></li>
+                            <li><a class="flex text-xlarge justify-center hover-white" href="flyer.html">Flyers</a>
+                            </li>
+                            <li>
+                                <a class="flex text-xlarge justify-center hover-white" href="card.html">Business Cards</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex">
+                        <a class="flex text-xlarge justify-center hover-white" href="offset_print.html">Offset Printing</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="flex-1 block">
+                <a class="flex text-xxlarge justify-center padding-1em hover-white" href="prices.html">Prices</a>
+            </li>
+            <li class="flex-1 block">
+                <a class="flex text-xxlarge justify-center padding-1em hover-white" href="staff.html">Staff</a>
+            </li>
+            <li class="flex-1 block">
+                <a class="flex text-xxlarge justify-center padding-1em hover-white" href="contacts.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="padding-sides">
+        <h1>Card</h1>
+        <h2>Instructions</h2>
+        <p>We will need an email from you with the arts file.</p>
+        <p>We will print the cards and group them in packs of 100</p>
+        <p>Businesss Cards usually have 55x85mm but you can use any size</p>
+        <p>After sending the files you'll wait almost nothing and we'll ship you the product</p>
+        <p>The information needed to pay will be present in the invoice document. The payment must be done in 30 days.</p>
+        <p>To be able to ship you the product along with the physical invoice we need the required information below:</p>
+        <form class="width-400px" action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+            <div class="flex flex-column">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="Enter your full name">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="Enter your address">
+                <label for="fiscal">Fiscal Number</label>
+                <input type="text" id="fiscal" name="Enter your fiscal number">
+                <label for="email">Email Adress</label>
+                <input type="email" id="email" name="Enter your email address">
+                <a href="success.html">Send</a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        Copyright © 2022 VGP
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+@font-face {
+  font-family: grapenuts;
+  src: url("../webfonts/GrapeNuts-Regular.ttf");
+} 
+
+html {
+  background-color: black;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+  *, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: grapenuts;
+  color: white;
+  width: 960px;
+  margin: auto;
+}
+
+.width-960px {
+  width: 960px;
+}
+
+footer {
+  margin-top: 30px;
+  border-top: 2px solid white;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  white-space: normal;
+}
+
+main a {
+  color: green;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul ul {
+  width: 167px;
+  display: none;
+  position: absolute;
+}
+
+nav ul ul ul {
+  margin: 0 0 0 100%;
+}
+
+nav ul ul li {
+  background-color: black;
+  display:block
+}
+
+nav ul ul li a {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: black;
+}
+
+textarea {
+  font: 14px sans-serif;
+}
+
+button {
+  font-family: grapenuts;
+  font-weight: bolder;
+  color: black;
+  background-color: green;
+  border-color: green;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.width-400px {
+  width: 400px;
+}
+
+.text-italic {
+  font-style:italic;
+}
+
+.text-bold {
+  font-weight:bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xlarge {
+  font-size: x-large;
+}
+
+.text-xxlarge {
+  font-size: xx-large;
+}
+
+.green {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.disapear {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex:1;
+}
+
+.flex-2 {
+  flex:2;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-even {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items:center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.height-100px {
+  height: 100px;
+}
+
+.border-white {
+  border: 2px solid white;
+}
+
+.hover-white:hover {
+  color: black;
+  background-color: white;
+}
+
+.padding-1em {
+  padding: 0.95em 1em;
+}
+
+.products-hover {
+  color: black;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.margin-top-1em {
+  margin: 1em 0 0 0;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  padding: 1em;
+  border: 1px solid green;
+}
+
+td {
+  border: 1px solid green;
+}
+
+.padding-sides {
+  padding: 0 32px;
+}
